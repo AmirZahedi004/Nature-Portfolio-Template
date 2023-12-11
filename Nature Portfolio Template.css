@@ -1,0 +1,359 @@
+body{padding: 0px; margin: 0px;font-family: "Raleway", sans-serif; display: flex;background-color: #f1f1f1;}
+*{box-sizing: border-box;}
+body img{width: 100%;}
+
+nav{
+    width: 22%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    animation: nav 0.5s 1;
+}
+@keyframes nav {
+    0%{
+        left: -220;
+    }
+    100%{
+        left: 0;
+    }
+}
+nav .navimg{
+    padding: 25px 16px 5px 16px;
+    margin: 0px;
+}
+nav .navimg img{
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+nav .navimg h2{
+    font-size: 20px;
+    margin: 15px 0px 0px 0px ;
+}
+nav .navimg p{
+    color: gray;
+}
+nav .navl a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 13px 35px;
+    text-align: left;
+}
+nav .navl a:first-child{
+color: #009688;
+}
+nav .navl a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+
+
+main{
+    width: 78%;
+    padding: 0px 20px;
+    margin-left: 22%;
+    height: 100%;
+}
+.head h1{
+    font-size: 35px;
+}
+.head p{
+    display: inline-block;
+    padding: 10px 18px 10px 0px;
+}
+.head a.all{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.head a{
+    padding: 10px 18px;
+    padding-left: 30px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.head a:hover{
+    background-color: gainsboro;
+}
+hr{
+    height: 6px;
+    border: none;
+    background-color: gainsboro;
+    margin: 0px 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: white;
+    margin-top: 20px;
+}
+.row .col img:hover{
+    opacity: 0.7;
+}
+.row .col .abo{
+    padding: 15px;
+}
+.row .col .abo p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.row .col .abo h4{
+    padding: 10px 0px 15px 0px;
+    margin: 0px;
+}
+
+
+.pagi{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.pagi a{
+    padding: 11px 16px;
+    text-decoration: none;
+    color: black;
+}
+.pagi a:hover{
+    background-color: black;
+    color: white;
+}
+.pagi a:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.pagi a:nth-child(2):hover{
+    background-color: rgb(168, 168, 168);
+    color: black;
+}
+
+
+.abome .imgabome{
+    display: flex;
+    justify-content: space-between;
+}
+.abome .imgabome img{
+    width: 49.2%;
+}
+.abome .pabome{
+    padding: 10px;
+    font-size: 14px;
+}
+.abome .pabome p{
+    line-height: 1.5;
+}
+
+
+.skills{
+    padding: 0px 10px;
+}
+.skills h2{
+    font-weight: 400;
+    font-size: 23px;
+}
+.skills .out{
+    background-color: #9e9e9e;
+}
+.skills .in{
+    background-color: #616161;
+    text-align: center;
+    padding: 11px 0px;
+    color: white;
+}
+.skills button{
+    padding: 13px 20px 13px 40px;
+    color: white;
+    background-color: #616161;
+    margin: 25px 0px;
+    border: none;
+    cursor: pointer;
+}
+.skills button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+
+main h3{
+    font-weight: 300;
+    margin: 50px 0px 15px 0px;
+}
+
+.charge{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.charge .price{
+    border: solid rgb(194, 194, 194) 1px;
+    width: 32%;
+    text-align: center;
+    opacity: 0.5;
+}
+.charge .price:hover{
+    opacity: 1;
+}
+.charge .price h2{
+    margin: 0px;
+    padding: 35px 0px;
+    background-color: black;
+    color: white;
+    font-weight: 300;
+}
+.charge .price p{
+    border-bottom: solid rgb(211, 211, 211) 1px;
+    margin: 0px;
+    padding: 20px 0px;
+    background-color: white;
+}
+.charge .price p span{
+    font-size: xx-large;
+    padding: 8px 0px 15px 0px;
+    display: inline-block;
+}
+.charge .price button{
+    padding: 15px 25px;
+    background-color: rgb(0, 150, 150);
+    border: none;
+    color: white;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.charge .price button:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact{
+    background-color: #9e9e9e;
+    padding: 15px;
+}
+.contact h3{
+    margin: 15px 0px 35px 0px;
+    font-weight: 700    ;
+}
+.contact .email{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .email .inemail{
+    width: 33.33333%;
+    text-align: center;
+    background-color: #616161;
+    color: white;
+}
+.contact hr{
+    height: 0.1px;
+    width: 100%;
+    margin: 40px 0px 25px 0px;
+    background-color: white;
+}
+form{
+    padding: 0px;
+    margin-bottom: 10px;
+}
+form p{
+    margin: 0px;
+}
+form input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+}
+form input[type=submit]{
+    width: auto;
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 25px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+
+.bf{
+    display: flex;
+    justify-content: space-between;
+    background-color: #616161;
+    color: white;
+    padding: 25px;
+}
+.bf h1{
+    font-weight: 300;
+    font-size: 22px;
+}
+.bf p{
+    line-height: 1.7;
+}
+.bf .left{
+    width: 32.5%;
+}
+.bf .center{
+    width: 32.5%;
+}
+.bf .center .workshop,.ski{
+    display: flex;
+    padding: 20px;
+}
+.bf .center img{
+    width: 50px;
+    height: 50px;
+}
+.bf .center p{
+    margin: 0px;
+    margin-left: 15px;
+}
+.bf .center p span{
+    font-size: small;
+}
+.bf .center .workshop:hover , .ski:hover{
+    background-color: rgb(209, 209, 209);
+}
+.bf .center hr{
+    height: 0.5px;
+    margin: 0 auto;
+}
+.bf .right{
+    width: 32.5%;
+}
+.bf .right a{
+    color: black;
+    background-color: #9e9e9e;
+    padding: 3px 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 8px 1px;
+    font-size: 11px;
+}
+.bf .right a:first-child{
+    background-color: black;
+    color: white;
+    padding: 4px 7px ;
+    font-size: 15px;
+}
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
